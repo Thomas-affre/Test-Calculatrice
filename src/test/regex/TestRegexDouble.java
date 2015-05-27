@@ -24,7 +24,7 @@ public class TestRegexDouble {
      * @param aTester Chaine à tester
      * @return true s'il s'agit d'un entier, false sinon
      */
-    public static boolean estUnEntier(String aTester) {
+    public static boolean estUnDouble(String aTester) {
         return Pattern.compile(REGEX_DOUBLE).matcher(aTester).matches();
     }
 
@@ -49,14 +49,14 @@ public class TestRegexDouble {
         System.out.println("\nChaine correcte:\n");
         for(int i = 0 ; i < chaineCorrecte.length ; i++){
             System.out.println(chaineCorrecte[i] + "\t|\t" 
-                    + estUnEntier(chaineCorrecte[i]));
+                    + estUnDouble(chaineCorrecte[i]));
         }
 
         // Test avec des chaines incorrecte
         System.out.println("\nChaine incorrecte:\n");
         for(int i = 0 ; i < chaineIncorrecte.length ; i++){
             System.out.println(chaineIncorrecte[i] + "\t|\t" 
-                    + estUnEntier(chaineIncorrecte[i]));
+                    + estUnDouble(chaineIncorrecte[i]));
         }
 
 
