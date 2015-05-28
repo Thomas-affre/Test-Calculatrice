@@ -6,8 +6,10 @@ package testcalcul.test;
 
 /** 
  * TODO commenter la responsabilité de la classe
- * @author thomas.affre
- *
+ * @author Thomas Affre
+ * @author Clément Zeghmati
+ * @author Thibaut Méjane
+ * @author Florian Louargant
  */
 public class TestArgumentsCommandeAttendus {
     
@@ -46,12 +48,15 @@ public class TestArgumentsCommandeAttendus {
     }
 
     /**
-     * TODO commenter le role de la methode
-     * @param args
+     * Test plusieurs chaines de caractères Dont toutes les commandes du tableur
+     * et affiche true si le nombre d'instruction correspond bien au cahier des
+     *  charges ou false si la commande n'est pas prise en compte
+     * @param args unused
      */
     public static void main(String[] args) {
         
-        String[] correcte = { "CONT" , "RAZ" , "INIT" , "FORM" , "COPIER" , "COPVAL" };
+        String[] correcte = { "CONT" , "RAZ" , "INIT" , "FORM" , "COPIER" ,
+                              "COPVAL" };
 
         String[] incorrecte = { "raz" , "546" , "()" , "" , "A" , " " };
         
