@@ -10,7 +10,10 @@ import java.util.regex.Pattern;
 
 /** 
  * Test unitaire pour la REGEX_ENTIER
- * @author thomas.affre
+ * @author Thomas Affre
+ * @author Clément Zeghmati
+ * @author Thibaut Méjane
+ * @author Florian Louargant
  *
  */
 public class TestRegexEntier {
@@ -29,7 +32,7 @@ public class TestRegexEntier {
     }
 
     /**
-     * TODO commenter le role de la methode
+     * Test plusieurs nombres et chaine de caractères
      * @param args unused
      */
     public static void main(String[] args) {

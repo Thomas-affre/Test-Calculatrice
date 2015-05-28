@@ -9,8 +9,11 @@ import java.util.regex.Pattern;
 
 
 /** 
- * Test unitaire pour la REGEX_ENTIER
- * @author thomas.affre
+ * Test unitaire pour la REGEX_OPERATEUR
+ * @author Thomas Affre
+ * @author Clément Zeghmati
+ * @author Thibaut Méjane
+ * @author Florian Louargant
  *
  */
 public class TestRegexOperateur {
@@ -28,7 +31,7 @@ public class TestRegexOperateur {
     }
 
     /**
-     * TODO commenter le role de la methode
+     * Test plusieurs chaines de caractères
      * @param args unused
      */
     public static void main(String[] args) {

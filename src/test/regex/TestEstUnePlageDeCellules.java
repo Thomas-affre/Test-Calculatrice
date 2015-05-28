@@ -1,5 +1,5 @@
 /*
- * TestEstUnePlageDeCellules.java								12 mai 2015
+ * TestEstUnePlageDeCellules.java				12 mai 2015
  * IUT INFO 2014-2015 
  */
 package test.regex;
@@ -7,8 +7,11 @@ package test.regex;
 import java.util.regex.Pattern;
 
 /** 
- * TODO commenter la responsabilité de la classe
- * @author thomas.affre
+ * Test unitaire de la méthode estUnePlageDeCellule
+ * @author Thomas Affre
+ * @author Clément Zeghmati
+ * @author Thibaut Méjane
+ * @author Florian Louargant
  *
  */
 public class TestEstUnePlageDeCellules {
@@ -31,8 +34,9 @@ public class TestEstUnePlageDeCellules {
     }
 
     /**
-     * TODO commenter le role de la methode
-     * @param args
+     * Test des chaines de 6 caractères représentant des éventuelles plages
+     * de cellule
+     * @param args unused
      */
     public static void main(String[] args) {
         

@@ -9,8 +9,11 @@ import java.util.regex.Pattern;
 
 
 /** 
- * Test unitaire pour la REGEX_ENTIER
- * @author thomas.affre
+ * Test unitaire pour la REGEX_DOUBLE
+ * @author Thomas Affre
+ * @author Clément Zeghmati
+ * @author Thibaut Méjane
+ * @author Florian Louargant
  *
  */
 public class TestRegexDouble {
@@ -29,7 +32,7 @@ public class TestRegexDouble {
     }
 
     /**
-     * TODO commenter le role de la methode
+     * Test plusieurs nombres et chaine de caractères
      * @param args unused
      */
     public static void main(String[] args) {

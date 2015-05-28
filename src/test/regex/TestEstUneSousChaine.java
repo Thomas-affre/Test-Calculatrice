@@ -9,8 +9,11 @@ import java.util.regex.Pattern;
 import minicalcul.programme.commandes.ConsoleCalculSimple;
 
 /** 
- * TODO commenter la responsabilité de la classe
- * @author thomas.affre
+ * Test unitaire de la méthode estUneSousChaine
+ * @author Thomas Affre
+ * @author Clément Zeghmati
+ * @author Thibaut Méjane
+ * @author Florian Louargant
  *
  */
 public class TestEstUneSousChaine {
@@ -32,9 +35,11 @@ public class TestEstUneSousChaine {
     public static final String REGEX_ZONE_MEMOIRE = "[A-Z]{1}";
 
     /**
-     * TODO commenter le role de la methode
-     * @param aTester
-     * @return true
+     * Teste si une chaine de caractères correspond à une mémoire existante et 
+     * acceptée par la console
+     * @param aTester Chaine à tester
+     * @return true s'il s'agit d'une mémoire acceptée par la console,
+     *         false sinon
      */
     public static boolean estUneMemoire(String aTester) {
         return Pattern.compile(REGEX_ZONE_MEMOIRE).matcher(aTester).matches();
@@ -71,8 +76,8 @@ public class TestEstUneSousChaine {
 
 
     /**
-     * TODO commenter le role de la methode
-     * @param args
+     * Teste plusieurs chaine de un ou plusieurs caractère 
+     * @param args unused
      */
     public static void main(String[] args) {
         String[] correcte = { "(" , ")" , "+" , "=" , "-" , "/" , "*"  ,

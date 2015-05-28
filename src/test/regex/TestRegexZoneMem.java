@@ -9,7 +9,9 @@ import java.util.regex.Pattern;
 /**
  * Test unitaire pour la REGEX_ZONE_MEMOIRE
  * @author Thomas Affre
- * @version 0.1
+ * @author Clément Zeghmati
+ * @author Thibaut Méjane
+ * @author Florian Louargant
  */
 public class TestRegexZoneMem{
 
@@ -26,7 +28,7 @@ public class TestRegexZoneMem{
     }
 
     /**
-     * TODO commenter le role de la methode
+     * Test plusieurs chaine de caractère
      * @param args
      */
     public static void main(String[] args) {
@@ -36,7 +38,7 @@ public class TestRegexZoneMem{
         };
 
         String[] chaineIncorrecte = {
-                "AE" , "A0" , "A200" , "P21"
+                "AE" , "A0" , "A200" , "P21" , "5"
         };
 
         // Test avec des chaines correcte
